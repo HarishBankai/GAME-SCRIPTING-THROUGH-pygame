@@ -22,4 +22,5 @@ while True:
             sys.exit()
     
     # Update the display to show any changes made in the game since last update
+
     pygame.display.update() 
