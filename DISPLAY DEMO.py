@@ -5,6 +5,9 @@ import sys
 # Initialize Pygame library 
 pygame.init()
 
+display_window =  pygame.display.set_mode((1000,700))    
+pygame.display.set_caption("DISPLAY DEMO")
+
 # Infinite loop to keep the program running until user quits
 while True:
     
